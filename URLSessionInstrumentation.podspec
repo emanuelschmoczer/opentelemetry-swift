@@ -12,4 +12,7 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target    = '11.0'
   spec.watchos.deployment_target = '3.0'
   spec.source_files              = ['Sources/Instrumentation/URLSession/**/*.swift']
+
+  spec.dependency 'OpenTelemetrySdk', '~> 1.4.0'
+  spec.dependency 'NetworkStatus', '~> 1.4.0'
 end

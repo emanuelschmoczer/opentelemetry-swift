@@ -13,5 +13,6 @@ Pod::Spec.new do |spec|
   spec.watchos.deployment_target = '3.0'
   spec.source_files              = ['Sources/Exporters/OpenTelemetryProtocol/**/*.swift']
 
-  spec.dependency 'GRPC', '~> 1.0.0'
+  spec.dependency 'OpenTelemetrySdk', '~> 1.4.0'
+  spec.dependency 'gRPC-Swift', '1.8.0'
 end

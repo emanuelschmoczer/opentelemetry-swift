@@ -13,5 +13,6 @@ Pod::Spec.new do |spec|
   spec.watchos.deployment_target = '3.0'
   spec.source_files              = ['Sources/Instrumentation/NetworkStatus/**/*.swift']
 
-  spec.dependency 'Reachability', '~> 5.1.0'
+  spec.dependency 'OpenTelemetryApi', '~> 1.4.0'
+  spec.dependency 'ReachabilitySwift', '~> 5.0.0'
 end

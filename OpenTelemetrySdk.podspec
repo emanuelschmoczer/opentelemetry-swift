@@ -12,4 +12,6 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target    = '11.0'
   spec.watchos.deployment_target = '3.0'
   spec.source_files              = ['Sources/OpenTelemetrySdk/**/*.swift']
+
+  spec.dependency 'OpenTelemetryApi', '~> 1.4.0'
 end
